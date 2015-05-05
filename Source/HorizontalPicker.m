@@ -6,9 +6,7 @@
 //  Copyright (c) 2014 Triggertrap. All rights reserved.
 //
 
-#import "HorizontalPicker.h"
-#import "UIColor+branding.h"
-#import "GradientView.h"
+#import "HorizontalPicker.h" 
 
 #define TTHorizontalPickerFont [UIFont fontWithName:@"OpenSans" size:11.0f]
 
@@ -39,10 +37,7 @@
         self.autoresizesSubviews = YES;
         
         UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
-        [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
-        
-        [self setFont:TTHorizontalPickerFont];
-        [self setFontColor:[UIColor TTBlackColour]];
+        [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal]; 
         
         self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, [self width], [self height]) collectionViewLayout:flowLayout];
         [self.collectionView setDataSource:self];
@@ -59,14 +54,6 @@
         gradientView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         gradientView.backgroundColor = [UIColor clearColor];
         gradientView.userInteractionEnabled = NO;
-        
-        //Change gradient colours if needed
-        //gradientView.leftGradientStartColor = [UIColor redColor];
-        //gradientView.leftGradientEndColor = [UIColor yellowColor];
-        //gradientView.rightGradientStartColor = [UIColor blueColor];
-        //gradientView.rightGradientEndColor = [UIColor greenColor];
-        //gradientView.horizontalLinesColor = [UIColor orangeColor];
-        //gradientView.verticalLinesColor = [UIColor purpleColor];
         
         [self addSubview:gradientView];
     }
@@ -89,6 +76,34 @@
 
 - (void)refreshCurrentIndex {
     [self setCurrentIndex:self.currentIndex];
+}
+
+- (void)gradientViewLeftGradientStarColor:(UIColor *)color {
+    gradientView.leftGradientStartColor = color;
+}
+
+- (void)gradientViewLeftGradientEndColor:(UIColor *)color {
+    gradientView.leftGradientEndColor = color;
+}
+
+- (void)gradientViewRightGradientStarColor:(UIColor *)color {
+    gradientView.rightGradientStartColor = color;
+}
+
+- (void)gradientViewRightGradientEndColor:(UIColor *)color {
+    gradientView.rightGradientEndColor = color;
+}
+
+- (void)horizontalLinesColor:(UIColor *)color {
+    gradientView.horizontalLinesColor = color;
+}
+
+- (void)verticalLinesColor:(UIColor *)color {
+    gradientView.verticalLinesColor = color;
+}
+
+- (void)gradientDirection:(GradientDirection)direction {
+    gradientView.direction = direction;
 }
 
 #pragma mark - ScrollView Delegate
@@ -137,6 +152,7 @@
 } 
 
 #pragma mark - UICollectionViewDelegate
+
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }
@@ -172,8 +188,7 @@
         UILabel *detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, [self height] / 2 - 8, [self width] / 3, [self height] / 2)];
         
         [self setLabel:detailLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string1"]];
-        [detailLabel setAdjustsFontSizeToFitWidth:YES];
-        [detailLabel setMinimumScaleFactor:0.5f];
+       
         [cell.contentView addSubview:detailLabel];
     } else {
         
@@ -184,8 +199,6 @@
         UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [self width] / 3, [self height])];
         
         [self setLabel:textLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string"]];
-        [textLabel setAdjustsFontSizeToFitWidth:YES];
-        [textLabel setMinimumScaleFactor:0.5f];
         
         [cell.contentView addSubview:textLabel];
     }
@@ -206,6 +219,9 @@
     if (self.fontColor) {
         label.textColor = self.fontColor;
     }
+    
+    [label setAdjustsFontSizeToFitWidth:YES];
+    [label setMinimumScaleFactor:0.5f];
 }
 
 #pragma mark - Getters 
@@ -355,6 +371,10 @@
     
     if ([self.delegate respondsToSelector:@selector(horizontalPicker:didSelectString:)]) {
         [self.delegate horizontalPicker:self didSelectString:[dict objectForKey:@"string"]];
+    }
+    
+    if ([self.delegate respondsToSelector:@selector(horizontalPicker:didSelectString1:)]) {
+        [self.delegate horizontalPicker:self didSelectString1:[dict objectForKey:@"string1"]];
     }
 } 
 

@@ -11,17 +11,12 @@
 		BD3873EB199E0E3800C8A122 /* HorizontalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3873E9199E0E3800C8A122 /* HorizontalPicker.m */; };
 		BD3873ED199E0E6500C8A122 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD3873EC199E0E6500C8A122 /* Images.xcassets */; };
 		BD4CCDEB199CCC4E00CBA176 /* ShutterSpeeds.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD4CCDEA199CCC4E00CBA176 /* ShutterSpeeds.plist */; };
-		BD9AEFFD199A535C000163A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AEFFC199A535C000163A3 /* main.m */; };
 		BD9AF000199A535C000163A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AEFFF199A535C000163A3 /* AppDelegate.m */; };
 		BD9AF003199A535C000163A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF002199A535C000163A3 /* ViewController.m */; };
 		BD9AF006199A535C000163A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF004199A535C000163A3 /* Main.storyboard */; };
 		BD9AF014199A535C000163A3 /* TTHorizontalPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF013199A535C000163A3 /* TTHorizontalPickerTests.m */; };
 		BD9AF025199A6F32000163A3 /* NDFilter.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF024199A6F32000163A3 /* NDFilter.plist */; };
-		BD9AF028199BA745000163A3 /* UIColor+branding.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AF027199BA745000163A3 /* UIColor+branding.m */; };
-		BDCD1E51199BB1DB00D85F4C /* Metric-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF029199BA7A2000163A3 /* Metric-Regular.otf */; };
-		BDCD1E52199BB1DB00D85F4C /* Metric-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF02A199BA7A2000163A3 /* Metric-Semibold.otf */; };
-		BDCD1E53199BB1DB00D85F4C /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF02B199BA7A2000163A3 /* OpenSans-Bold.ttf */; };
-		BDCD1E54199BB1DB00D85F4C /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD9AF02C199BA7A2000163A3 /* OpenSans-Regular.ttf */; };
+		BDF578641AF8B58B005319E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF578631AF8B58B005319E5 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +38,6 @@
 		BD4CCDEA199CCC4E00CBA176 /* ShutterSpeeds.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShutterSpeeds.plist; sourceTree = "<group>"; };
 		BD9AEFF7199A535C000163A3 /* TTHorizontalPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTHorizontalPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AEFFB199A535C000163A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD9AEFFC199A535C000163A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD9AEFFE199A535C000163A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD9AEFFF199A535C000163A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BD9AF001199A535C000163A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -53,12 +47,7 @@
 		BD9AF012199A535C000163A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD9AF013199A535C000163A3 /* TTHorizontalPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTHorizontalPickerTests.m; sourceTree = "<group>"; };
 		BD9AF024199A6F32000163A3 /* NDFilter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NDFilter.plist; sourceTree = "<group>"; };
-		BD9AF026199BA745000163A3 /* UIColor+branding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+branding.h"; sourceTree = "<group>"; };
-		BD9AF027199BA745000163A3 /* UIColor+branding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+branding.m"; sourceTree = "<group>"; };
-		BD9AF029199BA7A2000163A3 /* Metric-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metric-Regular.otf"; sourceTree = "<group>"; };
-		BD9AF02A199BA7A2000163A3 /* Metric-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metric-Semibold.otf"; sourceTree = "<group>"; };
-		BD9AF02B199BA7A2000163A3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
-		BD9AF02C199BA7A2000163A3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		BDF578631AF8B58B005319E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +107,6 @@
 				BD3873DF199E0D7A00C8A122 /* HorizontalPicker */,
 				BD9AF004199A535C000163A3 /* Main.storyboard */,
 				BD3873EC199E0E6500C8A122 /* Images.xcassets */,
-				BD9AF02E199BA7B2000163A3 /* Categories */,
-				BD9AF02D199BA7A9000163A3 /* Fonts */,
 				BD9AEFFA199A535C000163A3 /* Supporting Files */,
 			);
 			path = TTHorizontalPicker;
@@ -128,10 +115,10 @@
 		BD9AEFFA199A535C000163A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDF578631AF8B58B005319E5 /* main.m */,
 				BD4CCDEA199CCC4E00CBA176 /* ShutterSpeeds.plist */,
 				BD9AF024199A6F32000163A3 /* NDFilter.plist */,
 				BD9AEFFB199A535C000163A3 /* Info.plist */,
-				BD9AEFFC199A535C000163A3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,26 +138,6 @@
 				BD9AF012199A535C000163A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BD9AF02D199BA7A9000163A3 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				BD9AF029199BA7A2000163A3 /* Metric-Regular.otf */,
-				BD9AF02A199BA7A2000163A3 /* Metric-Semibold.otf */,
-				BD9AF02B199BA7A2000163A3 /* OpenSans-Bold.ttf */,
-				BD9AF02C199BA7A2000163A3 /* OpenSans-Regular.ttf */,
-			);
-			name = Fonts;
-			sourceTree = "<group>";
-		};
-		BD9AF02E199BA7B2000163A3 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				BD9AF026199BA745000163A3 /* UIColor+branding.h */,
-				BD9AF027199BA745000163A3 /* UIColor+branding.m */,
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,10 +222,6 @@
 			files = (
 				BD4CCDEB199CCC4E00CBA176 /* ShutterSpeeds.plist in Resources */,
 				BD3873ED199E0E6500C8A122 /* Images.xcassets in Resources */,
-				BDCD1E52199BB1DB00D85F4C /* Metric-Semibold.otf in Resources */,
-				BDCD1E51199BB1DB00D85F4C /* Metric-Regular.otf in Resources */,
-				BDCD1E53199BB1DB00D85F4C /* OpenSans-Bold.ttf in Resources */,
-				BDCD1E54199BB1DB00D85F4C /* OpenSans-Regular.ttf in Resources */,
 				BD9AF025199A6F32000163A3 /* NDFilter.plist in Resources */,
 				BD9AF006199A535C000163A3 /* Main.storyboard in Resources */,
 			);
@@ -278,12 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDF578641AF8B58B005319E5 /* main.m in Sources */,
 				BD3873EA199E0E3800C8A122 /* GradientView.m in Sources */,
 				BD3873EB199E0E3800C8A122 /* HorizontalPicker.m in Sources */,
 				BD9AF003199A535C000163A3 /* ViewController.m in Sources */,
 				BD9AF000199A535C000163A3 /* AppDelegate.m in Sources */,
-				BD9AEFFD199A535C000163A3 /* main.m in Sources */,
-				BD9AF028199BA745000163A3 /* UIColor+branding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

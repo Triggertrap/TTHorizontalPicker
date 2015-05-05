@@ -7,11 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-typedef NS_OPTIONS (NSInteger, RowsPerColumn) {
-    One,
-    Two
-};
+#import "GradientView.h"
 
 @protocol HorizontalPickerDelegate <NSObject>
 @optional
@@ -27,9 +23,14 @@ typedef NS_OPTIONS (NSInteger, RowsPerColumn) {
 - (void)horizontalPicker:(id)horizontalPicker didSelectValue:(NSNumber *)value;
 
 /*!
- * Use to send a call back to view controller that will receive the last item string selected from the horizontal picker
+ * Use to send a call back to view controller that will receive the last item string (top) selected from the horizontal picker
  */
 - (void)horizontalPicker:(id)horizontalPicker didSelectString:(NSString *)string;
+
+/*!
+ * Use to send a call back to view controller that will receive the last item string (bottom) selected from the horizontal picker
+ */
+- (void)horizontalPicker:(id)horizontalPicker didSelectString1:(NSString *)string;
 
 @end
 
@@ -76,6 +77,41 @@ typedef NS_OPTIONS (NSInteger, RowsPerColumn) {
  * Use to refresh horizontal picker items in case their span has changed
  */
 - (void)refreshCurrentIndex;
+
+/*!
+ * Use to set left hand side start gradient color
+ */
+- (void)gradientViewLeftGradientStarColor:(UIColor *)color;
+
+/*!
+ * Use to set left hand side end gradient color
+ */
+- (void)gradientViewLeftGradientEndColor:(UIColor *)color;
+
+/*!
+ * Use to set right hand side start gradient color
+ */
+- (void)gradientViewRightGradientStarColor:(UIColor *)color;
+
+/*!
+ * Use to set right hand side end gradient color
+ */
+- (void)gradientViewRightGradientEndColor:(UIColor *)color;
+
+/*!
+ * Use to set horizontal lines (triangle & top line) color
+ */
+- (void)horizontalLinesColor:(UIColor *)color;
+
+/*!
+ * Use to set vertical lines (separating the view into three parts) color
+ */
+- (void)verticalLinesColor:(UIColor *)color;
+
+/*!
+ * Use to set the direction of the gradient (Top to Bottom or Left to Right)
+ */
+- (void)gradientDirection:(GradientDirection)direction;
 
 /*!
  * Use to get saved index from picker

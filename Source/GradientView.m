@@ -11,11 +11,6 @@
 #define kTriangleSide 20
 #define kVerticalLineOffset 10
 
-typedef NS_OPTIONS (NSInteger, GradientDirection) {
-    LeftToRight,
-    TopToBottom,
-};
-
 @implementation GradientView
 
 #pragma mark - Getters
@@ -50,6 +45,10 @@ typedef NS_OPTIONS (NSInteger, GradientDirection) {
 
 - (UIColor *)horizontalLinesColor {
     return _horizontalLinesColor ? _horizontalLinesColor : [UIColor grayColor];
+}
+
+- (GradientDirection)direction {
+    return _direction ? _direction : (GradientDirection)LeftToRight;
 }
 
 #pragma mark - Draw
@@ -113,13 +112,13 @@ typedef NS_OPTIONS (NSInteger, GradientDirection) {
                                withRect:CGRectMake(0, 0, [self width] / 3, [self height])
                          withStartColor:[self leftGradientStartColor].CGColor
                            withEndColor:[self leftGradientEndColor].CGColor
-                          withDirection:LeftToRight];
+                          withDirection:[self direction]];
     
     [self drawLinearGradientWithContext:context
                                withRect:CGRectMake([self width] / 3 * 2, 0, [self width] / 3, [self height])
                          withStartColor:[self rightGradientStartColor].CGColor
                            withEndColor:[self rightGradientEndColor].CGColor
-                          withDirection:LeftToRight];
+                          withDirection:[self direction]];
 }
 
 - (void)drawLinearGradientWithContext:(CGContextRef)context

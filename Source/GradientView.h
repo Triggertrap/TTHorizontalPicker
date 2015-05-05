@@ -10,6 +10,11 @@
 
 @interface GradientView : UIView
 
+typedef NS_OPTIONS (NSInteger, GradientDirection) {
+    LeftToRight = 0,
+    TopToBottom = 1
+};
+
 /*!
  * Use to set left hand side start gradient color
  */
@@ -39,5 +44,10 @@
  * Use to set vertical lines (separating the view into three parts) color
  */
 @property (nonatomic, strong) UIColor *verticalLinesColor;
+
+/*!
+ * Use to set the direction of the gradient (Top to Bottom or Left to Right)
+ */
+@property (nonatomic) GradientDirection direction;
 
 @end
