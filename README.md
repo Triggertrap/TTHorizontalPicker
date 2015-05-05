@@ -1,9 +1,12 @@
-# TTHorizontalPicker
-
-[![CI Status](http://img.shields.io/travis/Valentin Kalchev/TTHorizontalPicker.svg?style=flat)](https://travis-ci.org/Valentin Kalchev/TTHorizontalPicker)
+TTHorizontalPicker
+-----
+A custom UIView that acts as a horizontal value picker. It is designed to scale depending on the size of the view and accepts values from plists. You can change the font, gradient start/end color, horizontal and vertical line colors and gradient direction.
+ 
 [![Version](https://img.shields.io/cocoapods/v/TTHorizontalPicker.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalPicker)
 [![License](https://img.shields.io/cocoapods/l/TTHorizontalPicker.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalPicker)
 [![Platform](https://img.shields.io/cocoapods/p/TTHorizontalPicker.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalPicker)
+
+<p align="center"><img src="https://github.com/Valentin-Kalchev/VKBarChartView/blob/master/picker_one_string.gif"/> <img src="https://github.com/Valentin-Kalchev/VKBarChartView/blob/master/picker_two_strings.gif"/></p>
 
 Setup
 -----
@@ -16,10 +19,7 @@ If you're unfamiliar with CocoaPods there is a great tutorial [here](http://www.
 2. Run 'touch Podfile' to create the Podfile.
 3. Open the Podfile using 'open -e Podfile'
 4. Add the pod `TTHorizontalPicker` to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile).
-
-platform :ios
-pod 'TTHorizontalPicker'
-
+ 
 ```ruby
 pod "TTHorizontalPicker"
 ```
@@ -32,13 +32,15 @@ pod "TTHorizontalPicker"
 1.  Download the `TTHorizontalPicker.h`, `TTHorizontalPicker.m`, `TTGradientView.h` and `TTGradientView.m` files from the Source folder and add them to your Xcode project.
 2.  `#import TTHorizontalPicker.h` wherever you need it.
 3.  Follow the included sample project to get started.
- 
-## Author
+
+Author
+----- 
  
 [Valentin Kalchev](https://github.com/Valentin-Kalchev)
 
 [Triggertrap Limited](https://github.com/TriggerTrap)
 
-## License
+License
+-----  
 
 TTHorizontalPicker is available under the MIT license. See the LICENSE file for more info.
