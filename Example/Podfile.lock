@@ -1,0 +1,14 @@
+PODS:
+  - TTHorizontalPicker (1.0.0)
+
+DEPENDENCIES:
+  - TTHorizontalPicker (from `../`)
+
+EXTERNAL SOURCES:
+  TTHorizontalPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTHorizontalPicker: 6013998494793f98c7ed97310603f2cb8b5c4ad5
+
+COCOAPODS: 0.36.4

@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TTHorizontalPicker', :exclusive => true do
+  pod "TTHorizontalPicker", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "TTHorizontalPicker", :path => "../" 
+end
