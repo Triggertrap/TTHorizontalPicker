@@ -6,7 +6,7 @@ A custom UIView that acts as a horizontal value picker. It is designed to scale 
 [![License](https://img.shields.io/cocoapods/l/TTHorizontalPicker.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalPicker)
 [![Platform](https://img.shields.io/cocoapods/p/TTHorizontalPicker.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalPicker)
 
-<p align="center"><img src="https://github.com/TriggerTrap/TTHorizontalPicker/blob/master/picker_one_string.gif"/> <img src="https://github.com/TriggerTrap/TTHorizontalPicker/blob/master/picker_two_strings.gif"/></p>
+<p align="center"><img src="https://github.com/TriggerTrap/TTHorizontalPicker/blob/master/pickers.gif"/></p>
 
 Setup
 -----
