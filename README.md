@@ -27,7 +27,7 @@ If you're unfamiliar with CocoaPods there is a great tutorial [here](http://www.
 4. Add the pod `TTHorizontalPicker` to your [Podfile](https://github.com/CocoaPods/CocoaPods/wiki/A-Podfile).
  
 ```ruby
-pod "TTHorizontalPicker"
+pod 'TTHorizontalPicker'
 ```
 
 5. Run `pod install`.
