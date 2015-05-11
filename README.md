@@ -11,8 +11,8 @@ A custom UIView that acts as a horizontal value picker. It is designed to scale 
 Apps using this control
 -----
 
-<p align="center"><a href="https://itunes.apple.com/app/triggertrap-camera-remote/id517679831?mt=8"/>Triggertrap: Camera remote for your SLR</a></p>
-<p align="center"><a href="https://itunes.apple.com/app/triggertrap-timelapse-pro/id946115908?ls=1&mt=8"/>Triggertrap Timelapse Pro: Intervalometer for your camera</a></p>
+<p align="left"><a href="https://itunes.apple.com/app/triggertrap-camera-remote/id517679831?mt=8"/>Triggertrap: Camera remote for your SLR</a></p>
+<p align="left"><a href="https://itunes.apple.com/app/triggertrap-timelapse-pro/id946115908?ls=1&mt=8"/>Triggertrap Timelapse Pro: Intervalometer for your camera</a></p>
 
 Setup
 -----
