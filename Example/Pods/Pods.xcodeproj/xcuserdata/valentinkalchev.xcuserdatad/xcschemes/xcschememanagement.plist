@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-TTHorizontalPicker-TTHorizontalPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TTHorizontalPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests-TTHorizontalPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CB68596F3875C9916FD95EF3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBE1DD41F3D28AA8CD6FA73A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F09E966CC7153A08BF9E066A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF435DEB209E8ED5161CE77A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

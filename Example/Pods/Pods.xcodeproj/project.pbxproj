@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15DB20D6440F97C9D1AA8827 /* Pods-TTHorizontalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE466039D584EAB02D7223 /* Pods-TTHorizontalPicker-dummy.m */; };
+		2CD525FEE688834770C09C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D45E7F136B4BE86E5218A5 /* Foundation.framework */; };
+		3D81E5CC6413B27406F74471 /* TTHorizontalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B71F243F7E42014DC6A0656D /* TTHorizontalPicker.m */; };
+		4A5B68448C8AE29F7EDB41C7 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB839584C367AB975523FA39 /* Pods-Tests-dummy.m */; };
+		75A3CB7535293965D7D508A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D45E7F136B4BE86E5218A5 /* Foundation.framework */; };
+		8F161BE1EDBDF07898CE9382 /* TTGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9482122667A8A18D58C60CE9 /* TTGradientView.h */; };
+		A1E7D86147DE4CA76E5F0CA6 /* TTGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9482122667A8A18D58C60CE9 /* TTGradientView.h */; };
+		A3060DE22628E98350321A05 /* Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EEF66D30E9AB821B3050A9 /* Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m */; };
+		A5E0F43E886E218419A1E051 /* TTHorizontalPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C19BF7AB21B478EE2D30C0E /* TTHorizontalPicker.h */; };
+		A6A180ABB88C47D882A34FE3 /* Pods-Tests-TTHorizontalPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD524967BD1777A0EA1D9A5 /* Pods-Tests-TTHorizontalPicker-dummy.m */; };
+		C06D572F75F5B86543FBD896 /* TTHorizontalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B71F243F7E42014DC6A0656D /* TTHorizontalPicker.m */; };
+		C7CE50B1339399123FA8DB78 /* TTHorizontalPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C19BF7AB21B478EE2D30C0E /* TTHorizontalPicker.h */; };
+		E2F2D7301A9820BE24EF12DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D45E7F136B4BE86E5218A5 /* Foundation.framework */; };
+		E65823EEEB08395300B7A741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D45E7F136B4BE86E5218A5 /* Foundation.framework */; };
+		F17BEE8D4C55853B796BBB09 /* TTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4141B28C59E086A259468E /* TTGradientView.m */; };
+		FD8251E85F3A89B4FD1285C7 /* TTGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4141B28C59E086A259468E /* TTGradientView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		254FFDB414CF7F1E5D0804CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E9DB71F0020AA113C55721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09E966CC7153A08BF9E066A;
+			remoteInfo = "Pods-Tests-TTHorizontalPicker";
+		};
+		3B25BA9D49571F63A5B58977 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67E9DB71F0020AA113C55721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB68596F3875C9916FD95EF3;
+			remoteInfo = "Pods-TTHorizontalPicker-TTHorizontalPicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4F553B83483C05D20358A5 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1264598DA3D7A6D504061EEA /* Pods-Tests-TTHorizontalPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-TTHorizontalPicker-prefix.pch"; path = "../Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker-prefix.pch"; sourceTree = "<group>"; };
+		16B1F1A0C8AFB2CB247917C7 /* Pods-TTHorizontalPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTHorizontalPicker.debug.xcconfig"; sourceTree = "<group>"; };
+		25B44AE8A7B921B45D14C0CF /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		28C64BB008C8336F4A4B172E /* Pods-TTHorizontalPicker-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TTHorizontalPicker-resources.sh"; sourceTree = "<group>"; };
+		2C19BF7AB21B478EE2D30C0E /* TTHorizontalPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTHorizontalPicker.h; sourceTree = "<group>"; };
+		2EF515D34D86FC2CDCEDED88 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		305FB37A8B20ADE6548E1CE6 /* libPods-Tests-TTHorizontalPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-TTHorizontalPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BBA5ED2B258D0DFF5333A7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33BB7F949C0959750C19D23B /* Pods-TTHorizontalPicker-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTHorizontalPicker-environment.h"; sourceTree = "<group>"; };
+		425A423199D8E6CA1E2F00C7 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		42F6C4F97CA3A21B96E6A8E9 /* Pods-TTHorizontalPicker-TTHorizontalPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTHorizontalPicker-TTHorizontalPicker.xcconfig"; sourceTree = "<group>"; };
+		68A7CE71AB80051472C6AEF7 /* Pods-TTHorizontalPicker-TTHorizontalPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTHorizontalPicker-TTHorizontalPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		758259D0D1A70B0D38E8CE60 /* Pods-TTHorizontalPicker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TTHorizontalPicker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EF6CEB71183AC88189B2BDE /* Pods-Tests-TTHorizontalPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-TTHorizontalPicker.xcconfig"; path = "../Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker.xcconfig"; sourceTree = "<group>"; };
+		8FD524967BD1777A0EA1D9A5 /* Pods-Tests-TTHorizontalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-TTHorizontalPicker-dummy.m"; path = "../Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker-dummy.m"; sourceTree = "<group>"; };
+		90A1782F08A3B2B59505F20C /* Pods-TTHorizontalPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TTHorizontalPicker.release.xcconfig"; sourceTree = "<group>"; };
+		90D1EF3D5D07136EF6136721 /* Pods-TTHorizontalPicker-TTHorizontalPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TTHorizontalPicker-TTHorizontalPicker-prefix.pch"; sourceTree = "<group>"; };
+		9482122667A8A18D58C60CE9 /* TTGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTGradientView.h; sourceTree = "<group>"; };
+		9E4141B28C59E086A259468E /* TTGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTGradientView.m; sourceTree = "<group>"; };
+		A33E9FF7DF3ED8F93E823F79 /* libPods-TTHorizontalPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTHorizontalPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D45E7F136B4BE86E5218A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AECEEE79A797F24F570D6FCB /* libPods-TTHorizontalPicker-TTHorizontalPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTHorizontalPicker-TTHorizontalPicker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71F243F7E42014DC6A0656D /* TTHorizontalPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTHorizontalPicker.m; sourceTree = "<group>"; };
+		B935F78396A848F07C8C531F /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		C5BE466039D584EAB02D7223 /* Pods-TTHorizontalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTHorizontalPicker-dummy.m"; sourceTree = "<group>"; };
+		CFFF961D2FF0E02EEE367AB0 /* Pods-Tests-TTHorizontalPicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-TTHorizontalPicker-Private.xcconfig"; path = "../Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker-Private.xcconfig"; sourceTree = "<group>"; };
+		D2FD7CC70E855D07EE240A2A /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3EEF66D30E9AB821B3050A9 /* Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m"; sourceTree = "<group>"; };
+		E52A7FA27CFA41EC746D0A5E /* Pods-TTHorizontalPicker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TTHorizontalPicker-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBF262E0BD4BDE376389A302 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB839584C367AB975523FA39 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0179A93566FD9A117217B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A3CB7535293965D7D508A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6DFA31FFF5917EC8BBB035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65823EEEB08395300B7A741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A81A2A56C8FE95E8596B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD525FEE688834770C09C19 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8D872B63EEFAE4692E435B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F2D7301A9820BE24EF12DE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		091BEFCEE10D78C60EEC0525 = {
+			isa = PBXGroup;
+			children = (
+				30BBA5ED2B258D0DFF5333A7 /* Podfile */,
+				1AD18B4375C7486A3F89172E /* Development Pods */,
+				B34D4A4B073567B6E8535DD0 /* Frameworks */,
+				EDA80C2E5C365C7BDF1542E0 /* Products */,
+				4C1DC18BABC55596704F497B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1AD18B4375C7486A3F89172E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC6843592E276585E64C4AAB /* TTHorizontalPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		475417A8CF576BC2C9C243A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42F6C4F97CA3A21B96E6A8E9 /* Pods-TTHorizontalPicker-TTHorizontalPicker.xcconfig */,
+				68A7CE71AB80051472C6AEF7 /* Pods-TTHorizontalPicker-TTHorizontalPicker-Private.xcconfig */,
+				E3EEF66D30E9AB821B3050A9 /* Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m */,
+				90D1EF3D5D07136EF6136721 /* Pods-TTHorizontalPicker-TTHorizontalPicker-prefix.pch */,
+				7EF6CEB71183AC88189B2BDE /* Pods-Tests-TTHorizontalPicker.xcconfig */,
+				CFFF961D2FF0E02EEE367AB0 /* Pods-Tests-TTHorizontalPicker-Private.xcconfig */,
+				8FD524967BD1777A0EA1D9A5 /* Pods-Tests-TTHorizontalPicker-dummy.m */,
+				1264598DA3D7A6D504061EEA /* Pods-Tests-TTHorizontalPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-TTHorizontalPicker-TTHorizontalPicker";
+			sourceTree = "<group>";
+		};
+		4C1DC18BABC55596704F497B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5209017C9973B02856FFC26C /* Pods-TTHorizontalPicker */,
+				FA3645A57A6CC91A2627CAA3 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5209017C9973B02856FFC26C /* Pods-TTHorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				758259D0D1A70B0D38E8CE60 /* Pods-TTHorizontalPicker-acknowledgements.markdown */,
+				E52A7FA27CFA41EC746D0A5E /* Pods-TTHorizontalPicker-acknowledgements.plist */,
+				C5BE466039D584EAB02D7223 /* Pods-TTHorizontalPicker-dummy.m */,
+				33BB7F949C0959750C19D23B /* Pods-TTHorizontalPicker-environment.h */,
+				28C64BB008C8336F4A4B172E /* Pods-TTHorizontalPicker-resources.sh */,
+				16B1F1A0C8AFB2CB247917C7 /* Pods-TTHorizontalPicker.debug.xcconfig */,
+				90A1782F08A3B2B59505F20C /* Pods-TTHorizontalPicker.release.xcconfig */,
+			);
+			name = "Pods-TTHorizontalPicker";
+			path = "Target Support Files/Pods-TTHorizontalPicker";
+			sourceTree = "<group>";
+		};
+		B34D4A4B073567B6E8535DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5093203659C273BC5EEFC8B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B830A37EC5196E0D93CB33 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9482122667A8A18D58C60CE9 /* TTGradientView.h */,
+				9E4141B28C59E086A259468E /* TTGradientView.m */,
+				2C19BF7AB21B478EE2D30C0E /* TTHorizontalPicker.h */,
+				B71F243F7E42014DC6A0656D /* TTHorizontalPicker.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DC6843592E276585E64C4AAB /* TTHorizontalPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C2B830A37EC5196E0D93CB33 /* Source */,
+				475417A8CF576BC2C9C243A9 /* Support Files */,
+			);
+			name = TTHorizontalPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E5093203659C273BC5EEFC8B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A7D45E7F136B4BE86E5218A5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDA80C2E5C365C7BDF1542E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A33E9FF7DF3ED8F93E823F79 /* libPods-TTHorizontalPicker.a */,
+				AECEEE79A797F24F570D6FCB /* libPods-TTHorizontalPicker-TTHorizontalPicker.a */,
+				EBF262E0BD4BDE376389A302 /* libPods-Tests.a */,
+				305FB37A8B20ADE6548E1CE6 /* libPods-Tests-TTHorizontalPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3645A57A6CC91A2627CAA3 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25B44AE8A7B921B45D14C0CF /* Pods-Tests-acknowledgements.markdown */,
+				2EF515D34D86FC2CDCEDED88 /* Pods-Tests-acknowledgements.plist */,
+				FB839584C367AB975523FA39 /* Pods-Tests-dummy.m */,
+				B935F78396A848F07C8C531F /* Pods-Tests-environment.h */,
+				425A423199D8E6CA1E2F00C7 /* Pods-Tests-resources.sh */,
+				0A4F553B83483C05D20358A5 /* Pods-Tests.debug.xcconfig */,
+				D2FD7CC70E855D07EE240A2A /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D3D6793A0E83275C95BB3E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E7D86147DE4CA76E5F0CA6 /* TTGradientView.h in Headers */,
+				C7CE50B1339399123FA8DB78 /* TTHorizontalPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C49B1DDE0D579D7518A82B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F161BE1EDBDF07898CE9382 /* TTGradientView.h in Headers */,
+				A5E0F43E886E218419A1E051 /* TTHorizontalPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB68596F3875C9916FD95EF3 /* Pods-TTHorizontalPicker-TTHorizontalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B36B6A92610304B7EDF260A /* Build configuration list for PBXNativeTarget "Pods-TTHorizontalPicker-TTHorizontalPicker" */;
+			buildPhases = (
+				3EC5946263EB166BF1FBEC9A /* Sources */,
+				CD6DFA31FFF5917EC8BBB035 /* Frameworks */,
+				4D3D6793A0E83275C95BB3E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TTHorizontalPicker-TTHorizontalPicker";
+			productName = "Pods-TTHorizontalPicker-TTHorizontalPicker";
+			productReference = AECEEE79A797F24F570D6FCB /* libPods-TTHorizontalPicker-TTHorizontalPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EBE1DD41F3D28AA8CD6FA73A /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF57B38C4B41F919E63CFD1 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				FB0D8A1FE01329F97831D418 /* Sources */,
+				AB0179A93566FD9A117217B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26F7A4433E5BD3BCD44AF0EE /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = EBF262E0BD4BDE376389A302 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F09E966CC7153A08BF9E066A /* Pods-Tests-TTHorizontalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEDD9318B6FBDDE0CF16C78 /* Build configuration list for PBXNativeTarget "Pods-Tests-TTHorizontalPicker" */;
+			buildPhases = (
+				43533149FFD1C6F3DAD7C7A4 /* Sources */,
+				FF8D872B63EEFAE4692E435B /* Frameworks */,
+				7C49B1DDE0D579D7518A82B6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-TTHorizontalPicker";
+			productName = "Pods-Tests-TTHorizontalPicker";
+			productReference = 305FB37A8B20ADE6548E1CE6 /* libPods-Tests-TTHorizontalPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF435DEB209E8ED5161CE77A /* Pods-TTHorizontalPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2F196DF7C02AD40853D0D28 /* Build configuration list for PBXNativeTarget "Pods-TTHorizontalPicker" */;
+			buildPhases = (
+				E51A5BC8FFD8C2EDFEDC7713 /* Sources */,
+				D8A81A2A56C8FE95E8596B35 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D623139C4115113DD463C2D7 /* PBXTargetDependency */,
+			);
+			name = "Pods-TTHorizontalPicker";
+			productName = "Pods-TTHorizontalPicker";
+			productReference = A33E9FF7DF3ED8F93E823F79 /* libPods-TTHorizontalPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E9DB71F0020AA113C55721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = D7968A90E137042E484927C3 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 091BEFCEE10D78C60EEC0525;
+			productRefGroup = EDA80C2E5C365C7BDF1542E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF435DEB209E8ED5161CE77A /* Pods-TTHorizontalPicker */,
+				CB68596F3875C9916FD95EF3 /* Pods-TTHorizontalPicker-TTHorizontalPicker */,
+				EBE1DD41F3D28AA8CD6FA73A /* Pods-Tests */,
+				F09E966CC7153A08BF9E066A /* Pods-Tests-TTHorizontalPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC5946263EB166BF1FBEC9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3060DE22628E98350321A05 /* Pods-TTHorizontalPicker-TTHorizontalPicker-dummy.m in Sources */,
+				F17BEE8D4C55853B796BBB09 /* TTGradientView.m in Sources */,
+				C06D572F75F5B86543FBD896 /* TTHorizontalPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43533149FFD1C6F3DAD7C7A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A180ABB88C47D882A34FE3 /* Pods-Tests-TTHorizontalPicker-dummy.m in Sources */,
+				FD8251E85F3A89B4FD1285C7 /* TTGradientView.m in Sources */,
+				3D81E5CC6413B27406F74471 /* TTHorizontalPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E51A5BC8FFD8C2EDFEDC7713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DB20D6440F97C9D1AA8827 /* Pods-TTHorizontalPicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0D8A1FE01329F97831D418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5B68448C8AE29F7EDB41C7 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26F7A4433E5BD3BCD44AF0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-TTHorizontalPicker";
+			target = F09E966CC7153A08BF9E066A /* Pods-Tests-TTHorizontalPicker */;
+			targetProxy = 254FFDB414CF7F1E5D0804CC /* PBXContainerItemProxy */;
+		};
+		D623139C4115113DD463C2D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TTHorizontalPicker-TTHorizontalPicker";
+			target = CB68596F3875C9916FD95EF3 /* Pods-TTHorizontalPicker-TTHorizontalPicker */;
+			targetProxy = 3B25BA9D49571F63A5B58977 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43BF0B2078898534A5D53EA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B1F1A0C8AFB2CB247917C7 /* Pods-TTHorizontalPicker.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F651DC7EADEDEE0A1FA8D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2FD7CC70E855D07EE240A2A /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7104CA2B270FC8AFB831F904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A4F553B83483C05D20358A5 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A428582D6B7C2236E1145313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0DC54F1FF2B47C1DA42A82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A7CE71AB80051472C6AEF7 /* Pods-TTHorizontalPicker-TTHorizontalPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTHorizontalPicker-TTHorizontalPicker/Pods-TTHorizontalPicker-TTHorizontalPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BED85BDEDF51EF3433A1A96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFF961D2FF0E02EEE367AB0 /* Pods-Tests-TTHorizontalPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DA1C09AB89C3E2EE0F9E2AFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFF961D2FF0E02EEE367AB0 /* Pods-Tests-TTHorizontalPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-TTHorizontalPicker/Pods-Tests-TTHorizontalPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ED2B06351AFBAB6114C7504D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF3DB65B4B9FEE0920B77403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A1782F08A3B2B59505F20C /* Pods-TTHorizontalPicker.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F5AAB132011280ACAF245B57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68A7CE71AB80051472C6AEF7 /* Pods-TTHorizontalPicker-TTHorizontalPicker-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TTHorizontalPicker-TTHorizontalPicker/Pods-TTHorizontalPicker-TTHorizontalPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B36B6A92610304B7EDF260A /* Build configuration list for PBXNativeTarget "Pods-TTHorizontalPicker-TTHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5AAB132011280ACAF245B57 /* Debug */,
+				B0DC54F1FF2B47C1DA42A82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF57B38C4B41F919E63CFD1 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7104CA2B270FC8AFB831F904 /* Debug */,
+				6F651DC7EADEDEE0A1FA8D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEDD9318B6FBDDE0CF16C78 /* Build configuration list for PBXNativeTarget "Pods-Tests-TTHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1C09AB89C3E2EE0F9E2AFB /* Debug */,
+				BED85BDEDF51EF3433A1A96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7968A90E137042E484927C3 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2B06351AFBAB6114C7504D /* Debug */,
+				A428582D6B7C2236E1145313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2F196DF7C02AD40853D0D28 /* Build configuration list for PBXNativeTarget "Pods-TTHorizontalPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BF0B2078898534A5D53EA2 /* Debug */,
+				EF3DB65B4B9FEE0920B77403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E9DB71F0020AA113C55721 /* Project object */;
+}
