@@ -2,8 +2,8 @@
 //  main.m
 //  TTHorizontalPicker
 //
-//  Created by Valentin Kalchev on 05/05/2015.
-//  Copyright (c) 2014 Valentin Kalchev. All rights reserved.
+//  Created by Valentin Kalchev on 14/08/2014.
+//  Copyright (c) 2014 Triggertrap. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

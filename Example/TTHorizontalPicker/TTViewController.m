@@ -2,8 +2,8 @@
 //  TTViewController.m
 //  TTHorizontalPicker
 //
-//  Created by Valentin Kalchev on 05/05/2015.
-//  Copyright (c) 2014 Valentin Kalchev. All rights reserved.
+//  Created by Valentin Kalchev on 14/08/2014.
+//  Copyright (c) 2014 Triggertrap. All rights reserved.
 //
 
 #import "TTViewController.h"
@@ -48,7 +48,7 @@
     [self.horizontalPickerWithOneRow horizontalLinesColor:[UIColor blackColor]];
     [self.horizontalPickerWithOneRow verticalLinesColor:[UIColor blackColor]];
     
-    // Change the direction of the gradient by setting the gradient direction
+    // Change the direction of the gradient
     [self.horizontalPickerWithOneRow gradientDirection:(GradientDirection)TopToBottom];
     
     NSString *shutterSpeeedValuesForTwoRows = [[NSBundle mainBundle] pathForResource:@"NDFilter" ofType:@"plist"];
