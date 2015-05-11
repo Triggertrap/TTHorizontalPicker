@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TTHorizontalPicker: 6013998494793f98c7ed97310603f2cb8b5c4ad5
+  TTHorizontalPicker: fb0b9b6e02bf8fe0a500a18bdfdc95ab2ca0b8c6
 
 COCOAPODS: 0.36.4

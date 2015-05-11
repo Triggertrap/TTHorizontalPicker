@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "874988578737E9CE7918FA42"
+               BlueprintIdentifier = "F09E966CC7153A08BF9E066A"
                BuildableName = "libPods-Tests-TTHorizontalPicker.a"
                BlueprintName = "Pods-Tests-TTHorizontalPicker"
                ReferencedContainer = "container:Pods.xcodeproj">
