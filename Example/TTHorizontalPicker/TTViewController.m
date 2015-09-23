@@ -57,6 +57,7 @@
     [self.horizontalPickerWithTwoRow setMinimumValue:[NSNumber numberWithInteger:1]];
     [self.horizontalPickerWithTwoRow setMaximumValue:[NSNumber numberWithInteger:10]];
     [self.horizontalPickerWithTwoRow setDefaultIndex:1];
+    [self.horizontalPickerWithTwoRow shouldDrawTriangle:NO];
 }
 
 - (void)didReceiveMemoryWarning {
