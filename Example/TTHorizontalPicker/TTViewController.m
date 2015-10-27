@@ -38,6 +38,7 @@
     [self.horizontalPickerWithOneRow setMinimumValue:[NSNumber numberWithInteger:67]];
     [self.horizontalPickerWithOneRow setMaximumValue:[NSNumber numberWithInteger:600]];
     [self.horizontalPickerWithOneRow setDefaultIndex:1];
+    [self.horizontalPickerWithOneRow setSelectedFontColor:[UIColor redColor]];
     
     // Optional - You can change the gradient, horizontal and vertical lines color
     [self.horizontalPickerWithOneRow gradientViewLeftGradientStarColor:[UIColor redColor]];

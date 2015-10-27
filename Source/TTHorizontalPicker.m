@@ -183,7 +183,7 @@
 
         UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 4, [self width] / 3, [self height] / 2)];
 
-        [self setLabel:textLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string"]];
+        [self setLabel:textLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string"] forRowAtIndexPath:indexPath];
         [textLabel setAdjustsFontSizeToFitWidth:YES];
         [textLabel setMinimumScaleFactor:0.5f];
 
@@ -191,7 +191,7 @@
 
         UILabel *detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, [self height] / 2 - 8, [self width] / 3, [self height] / 2)];
 
-        [self setLabel:detailLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string1"]];
+        [self setLabel:detailLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string1"] forRowAtIndexPath:indexPath];
 
         [cell.contentView addSubview:detailLabel];
     } else {
@@ -202,7 +202,7 @@
 
         UILabel *textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, [self width] / 3, [self height])];
 
-        [self setLabel:textLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string"]];
+        [self setLabel:textLabel withText:[[self.dataSource objectAtIndex:indexPath.row] objectForKey:@"string"] forRowAtIndexPath:indexPath];
 
         [cell.contentView addSubview:textLabel];
     }
@@ -210,7 +210,7 @@
     return cell;
 }
 
-- (void)setLabel:(UILabel *)label withText:(NSString *)text {
+- (void)setLabel:(UILabel *)label withText:(NSString *)text forRowAtIndexPath:(NSIndexPath *)indexPath {
 
     label.textAlignment = NSTextAlignmentCenter;
     label.text = text;
@@ -223,7 +223,14 @@
     if (self.fontColor) {
         label.textColor = self.fontColor;
     }
-
+    
+    if ([self.currentIndex isEqual:indexPath] || (self.currentIndex == nil && indexPath.row == 0)) {
+        
+        if (self.selectedFontColor) {
+            label.textColor = self.selectedFontColor;
+        }
+    }
+    
     [label setAdjustsFontSizeToFitWidth:YES];
     [label setMinimumScaleFactor:0.5f];
 }

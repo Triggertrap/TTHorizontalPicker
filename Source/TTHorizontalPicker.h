@@ -44,6 +44,11 @@
 @property (strong, nonatomic) UIColor *fontColor;
 
 /*!
+ * Use to change the horizontal picker text font color of the selected item
+ */
+@property (strong, nonatomic) UIColor *selectedFontColor;
+
+/*!
  * Use to change the horizontal picker text font
  */
 @property (strong, nonatomic) UIFont *font;
