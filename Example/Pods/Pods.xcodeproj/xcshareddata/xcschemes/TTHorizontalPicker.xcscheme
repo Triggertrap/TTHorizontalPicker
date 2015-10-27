@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '38ACC499C466A2FF30B9B201'
+               BlueprintIdentifier = 'B0936B5B5711B25C3C496F6B'
                BlueprintName = 'TTHorizontalPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTTHorizontalPicker.a'>

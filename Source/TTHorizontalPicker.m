@@ -224,7 +224,7 @@
         label.textColor = self.fontColor;
     }
     
-    if ([self.currentIndex isEqual:indexPath] || (self.currentIndex == nil && indexPath.row == 0)) {
+    if ([self.currentIndex isEqual:indexPath] || (self.currentIndex == nil && indexPath.row == self.defaultIndex)) {
         
         if (self.selectedFontColor) {
             label.textColor = self.selectedFontColor;
