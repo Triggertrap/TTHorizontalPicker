@@ -6,9 +6,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TTHorizontalPicker:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TTHorizontalPicker: fb0b9b6e02bf8fe0a500a18bdfdc95ab2ca0b8c6
+  TTHorizontalPicker: 659ae5370e43ea9db796160c285604485dbe3744
 
-COCOAPODS: 0.36.4
+COCOAPODS: 0.39.0

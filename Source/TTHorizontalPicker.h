@@ -35,13 +35,18 @@
 @end
 
 @interface TTHorizontalPicker : UIView <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIScrollViewDelegate>
- 
+
 @property (strong, nonatomic) id <TTHorizontalPickerDelegate> delegate;
 
 /*!
  * Use to change the horizontal picker text font color
  */
 @property (strong, nonatomic) UIColor *fontColor;
+
+/*!
+ * Use to change the horizontal picker text font color of the selected item
+ */
+@property (strong, nonatomic) UIColor *selectedFontColor;
 
 /*!
  * Use to change the horizontal picker text font
@@ -112,6 +117,11 @@
  * Use to set the direction of the gradient (Top to Bottom or Left to Right)
  */
 - (void)gradientDirection:(GradientDirection)direction;
+
+/*!
+ * Used to enable or disable the drawing of the triangle
+ */
+- (void)shouldDrawTriangle:(BOOL)drawTriangle;
 
 /*!
  * Use to get saved index from picker

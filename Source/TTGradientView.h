@@ -50,4 +50,9 @@ typedef NS_OPTIONS (NSInteger, GradientDirection) {
  */
 @property (nonatomic) GradientDirection direction;
 
+/*!
+ * Used set whether or not to draw the triangle
+ */
+@property (nonatomic, strong) NSNumber *drawTriangle;
+
 @end
